@@ -1,117 +1,124 @@
-🏦 Conta Bancária – Projeto Bootcamp JavaScript
+# 🏦 Conta Bancária
 
-Este repositório contém o projeto Conta Bancária, desenvolvido durante o Bootcamp de JavaScript da Generation Brasil.
-O objetivo do projeto é simular operações de banco no console, como abrir contas, consultar saldos e fazer transações básicas, aplicando conceitos fundamentais de programação em JavaScript.
+Projeto **Conta Bancária** desenvolvido durante o **Bootcamp de JavaScript da Generation Brasil**, com o objetivo de simular operações bancárias básicas em uma aplicação de **linha de comando**, aplicando conceitos fundamentais de lógica de programação e JavaScript.
 
-🚀 Tecnologias Utilizadas
+---
 
-O projeto foi construído com as seguintes tecnologias:
+## 📌 Sobre o Projeto
 
-JavaScript (Node.js)
+Este projeto simula o funcionamento de um sistema bancário simples, permitindo a criação e o gerenciamento de contas por meio do terminal. Ele foi desenvolvido com foco em aprendizado, praticando estruturas condicionais, laços de repetição, funções e organização do código.
 
-Node.js
+A aplicação funciona totalmente no **console**, apresentando um menu interativo para o usuário escolher as operações desejadas.
 
-Console Application
+---
 
-npm
+## 🚀 Funcionalidades
 
-📌 Visão Geral
+* Criar conta bancária
+* Listar contas cadastradas
+* Consultar dados de uma conta
+* Realizar depósito
+* Realizar saque
+* Exibir saldo
+* Menu interativo no terminal
 
-O sistema de conta bancária é uma aplicação de linha de comando que permite:
+---
 
-Criar uma nova conta bancária
+## 🛠️ Tecnologias Utilizadas
 
-Consultar detalhes de uma conta existente
+* **JavaScript**
+* **Node.js**
+* **TypeScript**
+* **npm**
 
-Realizar operações básicas como depósito e saque
+---
 
-Exibir o saldo atual da conta
+## 📂 Estrutura do Projeto
 
-Navegar através de um menu interativo no terminal
-
-Esse tipo de projeto costuma ser usado como prática de lógica de programação, controle de fluxo, estruturas de repetição e funções, que são essenciais para qualquer desenvolvimento em JavaScript.
-
-📋 Estrutura do Código
-
-O projeto está organizado da seguinte forma:
-
+```bash
+conta_bancaria/
 ├── src/
 │   ├── menu.ts
-│   └── (outros arquivos JavaScript)
+│   ├── model/
+│   ├── repository/
+│   └── util/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
+* `menu.ts`: arquivo principal com o menu interativo
+* `model`: definição das entidades do sistema
+* `repository`: regras de acesso e manipulação dos dados
+* `util`: funções auxiliares
 
-menu.ts: arquivo principal que contém o menu de opções interativo para o usuário.
+---
 
-Arquivos em src/: lógica do sistema bancário (criação de conta, operações etc.).
+## ▶️ Como Executar o Projeto
 
-package.json: dependências e scripts do projeto.
+### Pré-requisitos
 
-tsconfig.json: configurações do TypeScript (se usado).
+* Node.js instalado
+* npm ou yarn
 
-O projeto é escrito em TypeScript, mas pode ser compilado/rodado com Node.js com a ferramenta correta.
+### Passo a passo
 
-📦 Como Executar
+1. Clone o repositório:
 
-Siga os passos abaixo para rodar o projeto localmente:
-
-Clone o repositório
-
+```bash
 git clone https://github.com/brookste/conta_bancaria.git
+```
 
+2. Acesse o diretório do projeto:
 
-Acesse o diretório
-
+```bash
 cd conta_bancaria
+```
 
+3. Instale as dependências:
 
-Instale as dependências
-
+```bash
 npm install
+```
 
+4. Execute a aplicação:
 
-Execute o projeto
-
+```bash
 npm start
+```
 
+Ou, caso utilize TypeScript diretamente:
 
-Ou, se estiver usando TypeScript diretamente:
-
+```bash
 npx ts-node src/menu.ts
+```
 
-🧠 O que você irá aprender
+---
 
-Esse projeto é uma excelente base para compreender:
+## 🧠 Conceitos Praticados
 
-Lógica de programação em JavaScript
+* Lógica de programação
+* Estruturas condicionais
+* Laços de repetição
+* Funções e modularização
+* Interação com o usuário via terminal
+* Organização de código em camadas
 
-Manipulação de dados no terminal
+---
 
-Uso de funções para modularizar o código
+## 📈 Possíveis Melhorias
 
-Fluxo de menus e interatividade com usuário
+* Persistência de dados em arquivo ou banco de dados
+* Sistema de autenticação por usuário
+* Histórico de transações
+* Interface gráfica ou API REST
 
-📈 Possíveis Melhorias
+---
 
-Você pode expandir o projeto com funcionalidades como:
+## 👩‍💻 Autoria
 
-Persistência de dados em arquivo ou banco de dados
+Projeto desenvolvido por **Ester Santos** durante o **Bootcamp Generation Brasil**.
 
-Sistema de autenticação simples por usuário
+---
 
-Histórico de transações
-
-Interface Web ou API REST
-
-📌 Sobre o Autor
-
-Projeto desenvolvido por @brookste durante o Bootcamp de JavaScript pela Generation Brasil.
-É um ótimo exemplo de prática de fundamentos e lógica aplicada no desenvolvimento de software. 
-GitHub
-
-⭐ Gostou do projeto?
-
-Se você achou este projeto útil ou interessante, deixe uma ⭐ no repositório ⭐
-Contribuições são bem-vindas!
+⭐ Se você gostou do projeto, não esqueça de deixar uma estrela no repositório!
